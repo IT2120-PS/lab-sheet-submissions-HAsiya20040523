@@ -1,0 +1,6 @@
+set.seed(123)
+bake_time <- rnorm(25, mean = 45, sd = 2)
+print(bake_time)
+
+
+t.test(bake_time, mu = 46, alternative = "less")
